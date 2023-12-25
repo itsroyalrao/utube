@@ -5,9 +5,9 @@ function VideoPlayer() {
   return (
     <div>
       <iframe
-        className="rounded-xl"
+        className={`h-[240px] lg:h-[512px] rounded-xl`}
         width="100%"
-        height="512px"
+        // height="512px"
         src={`https://www.youtube.com/embed/${videoID}`}
         allowFullScreen
       ></iframe>

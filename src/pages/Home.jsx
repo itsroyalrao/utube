@@ -8,7 +8,7 @@ function Home() {
   youtubeData(dispatch);
 
   return (
-    <div className="w-full h-[100svh] flex flex-col overflow-auto">
+    <div className="w-full h-[100dvh] flex flex-col overflow-auto">
       <Navbar />
       <div className="">
         <VideoCard />

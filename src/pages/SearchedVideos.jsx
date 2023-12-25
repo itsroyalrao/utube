@@ -14,7 +14,7 @@ function SearchedVideos() {
     searchVideos(query, dispatch);
   }, [query, dispatch]);
   return (
-    <div className="w-full h-[100svh] flex flex-col overflow-auto">
+    <div className="w-full h-[100dvh] flex flex-col overflow-auto">
       <Navbar />
       <div className="grid grid-cols-3 gap-x-3 gap-y-5">
         {videos.map((video) => (

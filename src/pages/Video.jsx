@@ -19,7 +19,7 @@ function Video() {
   }, [videoID, dispatch]);
 
   return (
-    <div className="w-full h-[100svh] flex flex-col gap-3 overflow-auto">
+    <div className="w-full h-[100dvh] flex flex-col gap-3 overflow-auto">
       <Navbar />
       <div className="flex flex-col px-12">
         <VideoPlayer />
